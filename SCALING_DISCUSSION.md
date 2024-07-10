@@ -57,3 +57,21 @@ The architecture described uses AWS Lambda for compute and AWS DynamoDB for stor
   - Costs can rise substantially. AWS Lambda’s costs will increase due to the high number of executions, and DynamoDB’s costs could escalate with the required throughput capacity and storage.
   - Using DynamoDB's on-demand mode might become prohibitively expensive, and switching to provisioned capacity with auto-scaling would be more cost-effective.
   - Estimated costs could range from hundreds to thousands of dollars per month, depending on usage patterns and optimizations implemented.
+
+## Cost Considerations
+
+### AWS Lambda:
+
+- Cost is based on the number of requests and the duration of each request. For millions of requests, this can become substantial, but AWS Lambda remains cost-effective due to its pay-per-use model.
+
+### API Gateway:
+
+- Costs are based on the number of API calls and the amount of data transferred out. Higher usage will increase costs proportionally.
+
+### DynamoDB:
+
+- Costs are based on read/write throughput and data storage. Implementing on-demand scaling and monitoring usage patterns can help manage costs.
+
+## Conclusion
+
+The system is designed to scale with increasing user load. By leveraging AWS's scalable services such as Lambda, API Gateway, and DynamoDB, we can handle from hundreds to millions of users efficiently. Cost management strategies, such as implementing caching and optimizing DynamoDB throughput settings, are essential at larger scales.
