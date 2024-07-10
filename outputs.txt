@@ -1,0 +1,19 @@
+Current stack outputs (17):
+    OUTPUT                         VALUE
+    add_user_to_group_url          https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/group/add-user
+    block_url                      https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/block
+    block_user_lambda_arn          arn:aws:lambda:eu-west-1:992382649419:function:block-user-function-59a8249
+    check_messages_url             https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/messages
+    create_group_lambda_arn        arn:aws:lambda:eu-west-1:992382649419:function:create-group-function-77e97f4
+    group_message_url              https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/group/message
+    group_url                      https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/group
+    groups_table_name              groups-table-481cd18
+    message_url                    https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/message
+    messages_table_name            messages-table-1ecffd5
+    register_url                   https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/register
+    remove_user_from_group_url     https://4dvls3ocbj.execute-api.eu-west-1.amazonaws.com/dev/group/remove-user
+    role_arn                       arn:aws:iam::992382649419:role/lambda-exec-role-9adeacc
+    send_group_message_lambda_arn  arn:aws:lambda:eu-west-1:992382649419:function:send-group-message-function-b04dfc6
+    send_message_lambda_arn        arn:aws:lambda:eu-west-1:992382649419:function:send-message-function-e9ac490
+    user_lambda_function_arn       arn:aws:lambda:eu-west-1:992382649419:function:user-function-4d661ad
+    users_table_name               users-table-22efe58
